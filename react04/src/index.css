@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-div{
+/* div{
   height: 300px;
   background-color: aqua;
   margin: 50px;
@@ -23,4 +23,4 @@ div>div{
 div>div>div{
   height: 100px;
   background-color: cornflowerblue;
-}
+} */
