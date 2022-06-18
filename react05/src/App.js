@@ -6,19 +6,23 @@ import DeptList from './pages/DeptList'
 import Login from './pages/Login'
 import Mnav from './modules/Mnav';
 import DeptAdd from './pages/DeptAdd';
+import Test from './pages/Test';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Mnav/>
-    <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/intro" element={<Intro />}/>
-      <Route path="/dept" element={<DeptList />}/>
-      <Route path="/add" element={<DeptAdd />}/>
-      <Route path="/login" element={<Login />}/>
-    </Routes>
-  </BrowserRouter>
+  //   <BrowserRouter>
+  //   <Mnav/>
+  //   <Routes>
+  //     <Route path="/" element={<Home />}/>
+  //     <Route path="/intro" element={<Intro />}/>
+  //     <Route path="/dept" element={<DeptList />}/>
+  //     <Route path="/add" element={<DeptAdd />}/>
+  //     <Route path="/login" element={<Login />}/>
+  //   </Routes>
+  // </BrowserRouter>
+      <>
+        <Test/>
+      </>
   );
 }
 
